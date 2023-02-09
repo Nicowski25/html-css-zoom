@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#zoom {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#app-header {
+    color: white;
+}
