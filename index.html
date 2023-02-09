@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body id="">
 
     <div id="zoom">
         <header id="app-header" class="d-flex">
-            <div class="top-icons">
-                <Speaker class="fa-solid fa-table-cells"><span class="*">Speaker View</span></i>
+            <div class="top-icons d-flex">
+                <i class="fa-solid fa-table-cells"></i>
+                <p>Speaker View </p>
             </div>
             <div class="top-icons">
                 <i class="fa-solid fa-maximize"></i>
@@ -53,8 +54,38 @@
 
         </main>
 
-        <footer id="app-footer">
-            <i class="fa-solid fa-microphone"></i>
+        <footer id="app-footer" class="d-flex">
+
+            <section class="left-commands d-flex">
+                <div>
+                    <i class="fa-solid fa-microphone fa-2xl"></i>
+                    <p>Mute</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+            </section>
+            
+            <section class="central-commands d-flex">
+                <div>
+                    <i class="fa-solid fa-user-plus"></i>
+                    <p>Invite</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Manage Participants</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-poll-vertical"></i>
+                    <p>Polling</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-share-from-square"></i>
+                    <p>Share Screen</p>
+                </div>
+
+            </section>
+
 
         </footer>
 

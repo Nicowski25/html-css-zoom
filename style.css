@@ -27,6 +27,7 @@
     font-size: smaller;
     padding: 5px 5px;
     margin: 5px;
+    align-items: baseline;
 }
 
 #webcams {
@@ -37,5 +38,8 @@
 }
 
 #app-footer {
+    background-color: rgba(169, 169, 169, 0.315);
     color: white;
+    height: 75px;
+    position: sticky;
 }
