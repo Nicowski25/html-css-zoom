@@ -15,6 +15,8 @@
     background-color: black;
 }
 
+/* #region header */
+
 #app-header {
     color: white;
     margin-bottom: 2rem;
@@ -30,16 +32,42 @@
     align-items: baseline;
 }
 
+/* #endregion header */
+
+/* #region main */
+
 #webcams {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 4rem;
 }
+
+.cgreen {
+    color: rgb(29, 250, 29);
+}
+
+/* #endregion main */
+
+/* #region footer */
 
 #app-footer {
     background-color: rgba(169, 169, 169, 0.315);
     color: white;
-    height: 75px;
+    height: 10%;
     position: sticky;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.central-commands {
+    gap: 10px;
+}
+
+.right-commands {
+    background-color: rgba(169, 169, 169, 0.562);
+    color: red;
+}
+
+/* #endregion footer */
