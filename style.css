@@ -39,14 +39,26 @@
 #webcams {
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
 }
 
 .cgreen {
     color: rgb(29, 250, 29);
 }
+
+main div i   {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    background-color: rgba(156, 156, 156, 0.603);
+}
+
+main div {
+    position: relative;
+}
+
 
 /* #endregion main */
 
@@ -59,6 +71,8 @@
     position: sticky;
     justify-content: space-between;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .central-commands {
@@ -68,6 +82,14 @@
 .right-commands {
     background-color: rgba(169, 169, 169, 0.562);
     color: red;
+}
+
+.left-commands {
+    padding: 1rem;
+}
+
+div p{
+    padding: 5px;
 }
 
 /* #endregion footer */
